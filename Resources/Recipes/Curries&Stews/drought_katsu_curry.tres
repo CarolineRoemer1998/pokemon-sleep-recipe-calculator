@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://cshj3aq43syx5"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_ndd4d"]
+[ext_resource type="Texture2D" uid="uid://sk4lgmg1p5fq" path="res://Assets/Recipes/Curries&Stews/droughtkatsucurry.png" id="1_wh8ss"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_xyxjc"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="3_hhpfo"]
+[ext_resource type="Resource" uid="uid://b5aoba3dgl8mu" path="res://Resources/Ingredients/pure_oil.tres" id="4_cnkkr"]
+
+[resource]
+script = ExtResource("2_xyxjc")
+recipe_name = "\"Drought\" Katsu Curry"
+type = 0
+ingredients = Array[ExtResource("1_ndd4d")]([ExtResource("3_hhpfo"), ExtResource("4_cnkkr")])
+ingredient_amounts = Array[int]([10, 5])
+base_strength = 1815
+image = ExtResource("1_wh8ss")

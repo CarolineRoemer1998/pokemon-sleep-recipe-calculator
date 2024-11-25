@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://cmxlyl5ec3mo0"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_1pp8j"]
+[ext_resource type="Texture2D" uid="uid://bs0e0mtgr6k6s" path="res://Assets/Recipes/Desserts&Drinks/luckychantapplepie.png" id="1_hmfya"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_g3847"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="3_wnj26"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="4_wak2d"]
+
+[resource]
+script = ExtResource("2_g3847")
+recipe_name = "\"Lucky Chant\" Apple Pie"
+type = 2
+ingredients = Array[ExtResource("1_1pp8j")]([ExtResource("3_wnj26"), ExtResource("4_wak2d")])
+ingredient_amounts = Array[int]([12, 4])
+base_strength = 1634
+image = ExtResource("1_hmfya")

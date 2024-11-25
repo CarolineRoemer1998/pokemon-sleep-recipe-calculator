@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://cmg8dlqqillhc"]
+
+[ext_resource type="Texture2D" uid="uid://da8r6pp7avk7w" path="res://Assets/Recipes/Salads/snowcloakcaesarsalad.png" id="1_5ydqy"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_p0x2e"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_buwem"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="2_pqca6"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="3_ka8h5"]
+
+[resource]
+script = ExtResource("2_buwem")
+recipe_name = "\"Snow Cloak\" Caesar Salad"
+type = 1
+ingredients = Array[ExtResource("1_p0x2e")]([ExtResource("2_pqca6"), ExtResource("3_ka8h5")])
+ingredient_amounts = Array[int]([10, 6])
+base_strength = 1774
+image = ExtResource("1_5ydqy")

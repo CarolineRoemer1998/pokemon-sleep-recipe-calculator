@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://cv56koaiaxyhe"]
+
+[ext_resource type="Texture2D" uid="uid://lekwkfbqv7ne" path="res://Assets/Recipes/Desserts&Drinks/flowergiftmacarons.png" id="1_24lto"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_y2avw"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_528dg"]
+[ext_resource type="Resource" uid="uid://dhuwjf11lkcbi" path="res://Resources/Ingredients/soothing_cacao.tres" id="3_d25ty"]
+[ext_resource type="Resource" uid="uid://4267hdfm5q23" path="res://Resources/Ingredients/fancy_egg.tres" id="4_wm4js"]
+[ext_resource type="Resource" uid="uid://dfgpuxoladko1" path="res://Resources/Ingredients/honey.tres" id="5_ghjnu"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="6_r07j3"]
+
+[resource]
+script = ExtResource("2_528dg")
+recipe_name = "\"Flower Gift\" Macarons"
+type = 2
+ingredients = Array[ExtResource("1_y2avw")]([ExtResource("3_d25ty"), ExtResource("4_wm4js"), ExtResource("5_ghjnu"), ExtResource("6_r07j3")])
+ingredient_amounts = Array[int]([25, 25, 17, 10])
+base_strength = 13834
+image = ExtResource("1_24lto")

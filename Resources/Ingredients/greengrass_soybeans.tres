@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://8bu1nsa1gvuk"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_cnpld"]
+[ext_resource type="Texture2D" uid="uid://cv4qhliit8742" path="res://Assets/Ingredients/greengrasssoybeans.png" id="1_r2aj6"]
+
+[resource]
+script = ExtResource("1_cnpld")
+ingredient_name = "Greengrass Soybeans"
+base_strength = 100
+sell_value = 4
+image = ExtResource("1_r2aj6")

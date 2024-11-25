@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://c0lku58cfkax0"]
+
+[ext_resource type="Texture2D" uid="uid://b4p6od8b32x8j" path="res://Assets/Recipes/Salads/fancyapplesalad.png" id="1_mtc2c"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_rbogf"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="2_4rctq"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_b4nwe"]
+
+[resource]
+script = ExtResource("2_b4nwe")
+recipe_name = "Fancy Apple Salad"
+type = 1
+ingredients = Array[ExtResource("1_rbogf")]([ExtResource("2_4rctq")])
+ingredient_amounts = Array[int]([8])
+base_strength = 763
+image = ExtResource("1_mtc2c")

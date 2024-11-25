@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://dj0bas2prca0d"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_ey5sj"]
+[ext_resource type="Texture2D" uid="uid://b4xgr0eycrhkx" path="res://Assets/Recipes/Desserts&Drinks/fluffysweetpotatoes.png" id="1_h02qs"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_oupdy"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="3_hxk1j"]
+[ext_resource type="Resource" uid="uid://3tlbrwv2tb0w" path="res://Resources/Ingredients/soft_potato.tres" id="4_ofk10"]
+
+[resource]
+script = ExtResource("2_oupdy")
+recipe_name = "\"Fluffy\" Sweet Potatoes"
+type = 2
+ingredients = Array[ExtResource("1_ey5sj")]([ExtResource("3_hxk1j"), ExtResource("4_ofk10")])
+ingredient_amounts = Array[int]([5, 9])
+base_strength = 1783
+image = ExtResource("1_h02qs")

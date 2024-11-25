@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://dhrdhhf65j542"]
+
+[ext_resource type="Texture2D" uid="uid://do5feo8cxu1ae" path="res://Assets/Recipes/Salads/slowpoketailpeppersalad.png" id="1_0stlm"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_ofjhf"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_d0hhm"]
+[ext_resource type="Resource" uid="uid://b5aoba3dgl8mu" path="res://Resources/Ingredients/pure_oil.tres" id="3_pafu0"]
+[ext_resource type="Resource" uid="uid://br7hcte4vqt2q" path="res://Resources/Ingredients/fiery_herb.tres" id="4_k20tq"]
+[ext_resource type="Resource" uid="uid://cpm7uosuhjprm" path="res://Resources/Ingredients/slowpoke_tail.tres" id="5_70c80"]
+
+[resource]
+script = ExtResource("2_d0hhm")
+recipe_name = "Slowpoke Tail Pepper Salad"
+type = 1
+ingredients = Array[ExtResource("1_ofjhf")]([ExtResource("3_pafu0"), ExtResource("4_k20tq"), ExtResource("5_70c80")])
+ingredient_amounts = Array[int]([15, 10, 10])
+base_strength = 8169
+image = ExtResource("1_0stlm")

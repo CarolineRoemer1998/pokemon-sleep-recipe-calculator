@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://cui7lr3h6axmk"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_dtn3k"]
+[ext_resource type="Texture2D" uid="uid://dlp2b1dsop7p7" path="res://Assets/Recipes/Salads/greengrasssalad.png" id="1_rkk27"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_53ctq"]
+[ext_resource type="Resource" uid="uid://b5aoba3dgl8mu" path="res://Resources/Ingredients/pure_oil.tres" id="3_2jsor"]
+[ext_resource type="Resource" uid="uid://chmgldncbftu" path="res://Resources/Ingredients/greengrass_corn.tres" id="4_og4fy"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="5_jt58o"]
+[ext_resource type="Resource" uid="uid://3tlbrwv2tb0w" path="res://Resources/Ingredients/soft_potato.tres" id="6_y4chi"]
+
+[resource]
+script = ExtResource("2_53ctq")
+recipe_name = "Greengrass Salad"
+type = 1
+ingredients = Array[ExtResource("1_dtn3k")]([ExtResource("3_2jsor"), ExtResource("4_og4fy"), ExtResource("5_jt58o"), ExtResource("6_y4chi")])
+ingredient_amounts = Array[int]([22, 17, 14, 9])
+base_strength = 11393
+image = ExtResource("1_rkk27")

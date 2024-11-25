@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://bvdeo15pun7vk"]
+
+[ext_resource type="Texture2D" uid="uid://dnvn08b4kejrd" path="res://Assets/Recipes/Salads/ninjasalad.png" id="1_cyu22"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_uu8je"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_eosf7"]
+[ext_resource type="Resource" uid="uid://8bu1nsa1gvuk" path="res://Resources/Ingredients/greengrass_soybeans.tres" id="3_cvcpr"]
+[ext_resource type="Resource" uid="uid://j43kpya2firl" path="res://Resources/Ingredients/large_leek.tres" id="4_sk2br"]
+[ext_resource type="Resource" uid="uid://f2slgbm1kilm" path="res://Resources/Ingredients/warming_ginger.tres" id="5_62pjq"]
+[ext_resource type="Resource" uid="uid://bgikt8kwrd50g" path="res://Resources/Ingredients/tasty_mushroom.tres" id="6_rku16"]
+
+[resource]
+script = ExtResource("2_eosf7")
+recipe_name = "Ninja Salad"
+type = 1
+ingredients = Array[ExtResource("1_uu8je")]([ExtResource("3_cvcpr"), ExtResource("4_sk2br"), ExtResource("5_62pjq"), ExtResource("6_rku16")])
+ingredient_amounts = Array[int]([19, 15, 11, 12])
+base_strength = 11659
+image = ExtResource("1_cyu22")

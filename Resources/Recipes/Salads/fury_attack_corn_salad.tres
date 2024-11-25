@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://c4aw1qj15hchc"]
+
+[ext_resource type="Texture2D" uid="uid://umcctefqw5ap" path="res://Assets/Recipes/Salads/furyattackcornsalad.png" id="1_77i07"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_syevx"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_06yh0"]
+[ext_resource type="Resource" uid="uid://chmgldncbftu" path="res://Resources/Ingredients/greengrass_corn.tres" id="2_86j8w"]
+[ext_resource type="Resource" uid="uid://b5aoba3dgl8mu" path="res://Resources/Ingredients/pure_oil.tres" id="3_d5obp"]
+
+[resource]
+script = ExtResource("2_06yh0")
+recipe_name = "\"Fury Attack\" Corn Salad"
+type = 1
+ingredients = Array[ExtResource("1_syevx")]([ExtResource("2_86j8w"), ExtResource("3_d5obp")])
+ingredient_amounts = Array[int]([9, 8])
+base_strength = 2785
+image = ExtResource("1_77i07")

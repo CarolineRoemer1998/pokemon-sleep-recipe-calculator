@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://bjmwlple0oe54"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_i23hn"]
+[ext_resource type="Texture2D" uid="uid://dn0ciu82d0lbo" path="res://Assets/Recipes/Curries&Stews/dreameaterbuttercurry.png" id="1_x0myi"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_uw0g3"]
+[ext_resource type="Resource" uid="uid://dhuwjf11lkcbi" path="res://Resources/Ingredients/soothing_cacao.tres" id="3_m1d1w"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="4_wsrtf"]
+[ext_resource type="Resource" uid="uid://3tlbrwv2tb0w" path="res://Resources/Ingredients/soft_potato.tres" id="5_jtsrc"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="6_hnuv7"]
+
+[resource]
+script = ExtResource("2_uw0g3")
+recipe_name = "\"Dream Eater\" Butter Curry"
+type = 0
+ingredients = Array[ExtResource("1_i23hn")]([ExtResource("3_m1d1w"), ExtResource("4_wsrtf"), ExtResource("5_jtsrc"), ExtResource("6_hnuv7")])
+ingredient_amounts = Array[int]([12, 10, 18, 15])
+base_strength = 9010
+image = ExtResource("1_x0myi")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://dwsvxrbifagen"]
+
+[ext_resource type="Texture2D" uid="uid://58188paagqpu" path="res://Assets/Recipes/Desserts&Drinks/fancyapplejuice.png" id="1_0vvcr"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_xd51t"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_wsb6n"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="3_iyyt3"]
+
+[resource]
+script = ExtResource("2_wsb6n")
+recipe_name = "Fancy Apple Juice"
+type = 2
+ingredients = Array[ExtResource("1_xd51t")]([ExtResource("3_iyyt3")])
+ingredient_amounts = Array[int]([8])
+base_strength = 763
+image = ExtResource("1_0vvcr")

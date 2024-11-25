@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://f2slgbm1kilm"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_umspe"]
+[ext_resource type="Texture2D" uid="uid://j67u7yobje45" path="res://Assets/Ingredients/warmingginger.png" id="1_vblu4"]
+
+[resource]
+script = ExtResource("1_umspe")
+ingredient_name = "Warming Ginger"
+base_strength = 109
+sell_value = 4
+image = ExtResource("1_vblu4")

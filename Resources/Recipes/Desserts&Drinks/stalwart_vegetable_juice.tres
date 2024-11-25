@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://ch7prhx88vlso"]
+
+[ext_resource type="Texture2D" uid="uid://bu8ovadr83uxs" path="res://Assets/Recipes/Desserts&Drinks/stalwartvegetablejuice.png" id="1_1ac3x"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_5vpsm"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_i04d8"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="3_k2foi"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="4_lwqbe"]
+
+[resource]
+script = ExtResource("2_i04d8")
+recipe_name = "\"Stalwart\" Vegetable Juice"
+type = 2
+ingredients = Array[ExtResource("1_5vpsm")]([ExtResource("3_k2foi"), ExtResource("4_lwqbe")])
+ingredient_amounts = Array[int]([9, 7])
+base_strength = 1798
+image = ExtResource("1_1ac3x")

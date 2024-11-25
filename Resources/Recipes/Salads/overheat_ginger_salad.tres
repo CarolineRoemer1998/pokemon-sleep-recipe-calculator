@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://6v8kwnfl8yqj"]
+
+[ext_resource type="Texture2D" uid="uid://c1rxj2rb307lm" path="res://Assets/Recipes/Salads/overheatgingersalad.png" id="1_8ste4"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_ulxax"]
+[ext_resource type="Resource" uid="uid://br7hcte4vqt2q" path="res://Resources/Ingredients/fiery_herb.tres" id="2_hu1i2"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_jdglm"]
+[ext_resource type="Resource" uid="uid://f2slgbm1kilm" path="res://Resources/Ingredients/warming_ginger.tres" id="3_aoti0"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="4_u4cj6"]
+
+[resource]
+script = ExtResource("2_jdglm")
+recipe_name = "\"Overheat\" Ginger Salad"
+type = 1
+ingredients = Array[ExtResource("1_ulxax")]([ExtResource("2_hu1i2"), ExtResource("3_aoti0"), ExtResource("4_u4cj6")])
+ingredient_amounts = Array[int]([17, 10, 8])
+base_strength = 5225
+image = ExtResource("1_8ste4")

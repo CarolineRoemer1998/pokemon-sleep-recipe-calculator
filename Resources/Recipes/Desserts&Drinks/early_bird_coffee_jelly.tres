@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://dtarqnshqaad1"]
+
+[ext_resource type="Texture2D" uid="uid://2f4nvxefpjsc" path="res://Assets/Recipes/Desserts&Drinks/earlybirdcoffeejelly.png" id="1_1o6o0"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_tern7"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_i1el2"]
+[ext_resource type="Resource" uid="uid://bitcih5bolqwo" path="res://Resources/Ingredients/rousing_coffee.tres" id="3_46enc"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="4_6ovat"]
+[ext_resource type="Resource" uid="uid://dfgpuxoladko1" path="res://Resources/Ingredients/honey.tres" id="5_eumoc"]
+
+[resource]
+script = ExtResource("2_i1el2")
+recipe_name = "\"Early Bird\" Coffee Jelly"
+type = 2
+ingredients = Array[ExtResource("1_tern7")]([ExtResource("3_46enc"), ExtResource("4_6ovat"), ExtResource("5_eumoc")])
+ingredient_amounts = Array[int]([16, 14, 12])
+base_strength = 6739
+image = ExtResource("1_1o6o0")

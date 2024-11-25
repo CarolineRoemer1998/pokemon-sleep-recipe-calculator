@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://bgikt8kwrd50g"]
+
+[ext_resource type="Texture2D" uid="uid://bn3n1g362g6cu" path="res://Assets/Ingredients/tastymushroom.png" id="1_0fbr7"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_75m0c"]
+
+[resource]
+script = ExtResource("1_75m0c")
+ingredient_name = "Tasty Mushroom"
+base_strength = 167
+sell_value = 7
+image = ExtResource("1_0fbr7")

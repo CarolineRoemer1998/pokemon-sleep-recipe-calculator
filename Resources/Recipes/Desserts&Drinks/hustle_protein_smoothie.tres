@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://17vuw8jq6ni5"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_2l7oc"]
+[ext_resource type="Texture2D" uid="uid://c3gp1t6by4cq6" path="res://Assets/Recipes/Desserts&Drinks/hustleproteinsmoothie.png" id="1_ciwji"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_cj1b3"]
+[ext_resource type="Resource" uid="uid://8bu1nsa1gvuk" path="res://Resources/Ingredients/greengrass_soybeans.tres" id="3_u0qkn"]
+[ext_resource type="Resource" uid="uid://dhuwjf11lkcbi" path="res://Resources/Ingredients/soothing_cacao.tres" id="4_pubq0"]
+
+[resource]
+script = ExtResource("2_cj1b3")
+recipe_name = "\"Hustle\" Protein Smoothie"
+type = 2
+ingredients = Array[ExtResource("1_2l7oc")]([ExtResource("3_u0qkn"), ExtResource("4_pubq0")])
+ingredient_amounts = Array[int]([15, 8])
+base_strength = 3168
+image = ExtResource("1_ciwji")

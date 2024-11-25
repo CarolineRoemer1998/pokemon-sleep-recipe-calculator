@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://bixqbpcxhghso"]
+
+[ext_resource type="Texture2D" uid="uid://b0nfbkfjylyk4" path="res://Assets/Recipes/Desserts&Drinks/teatimecornscones.png" id="1_1n68x"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_p2xut"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_oowy8"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="3_j10py"]
+[ext_resource type="Resource" uid="uid://f2slgbm1kilm" path="res://Resources/Ingredients/warming_ginger.tres" id="4_j6x75"]
+[ext_resource type="Resource" uid="uid://chmgldncbftu" path="res://Resources/Ingredients/greengrass_corn.tres" id="5_p4aen"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="6_5u2ga"]
+
+[resource]
+script = ExtResource("2_oowy8")
+recipe_name = "\"Teatime\" Corn Scones"
+type = 2
+ingredients = Array[ExtResource("1_p2xut")]([ExtResource("3_j10py"), ExtResource("4_j6x75"), ExtResource("5_p4aen"), ExtResource("6_5u2ga")])
+ingredient_amounts = Array[int]([20, 20, 18, 9])
+base_strength = 10925
+image = ExtResource("1_1n68x")

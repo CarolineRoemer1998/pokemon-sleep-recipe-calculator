@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://dyayw6txwduql"]
+
+[ext_resource type="Texture2D" uid="uid://fvt1lasf0e4y" path="res://Assets/Recipes/Curries&Stews/solarpowertomatocurry.png" id="1_klxe7"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_vs7ga"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_kddw7"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="3_gutm3"]
+[ext_resource type="Resource" uid="uid://br7hcte4vqt2q" path="res://Resources/Ingredients/fiery_herb.tres" id="4_3t36l"]
+
+[resource]
+script = ExtResource("2_kddw7")
+recipe_name = "\"Solar Power\" Tomato Curry"
+type = 0
+ingredients = Array[ExtResource("1_vs7ga")]([ExtResource("3_gutm3"), ExtResource("4_3t36l")])
+ingredient_amounts = Array[int]([10, 5])
+base_strength = 1943
+image = ExtResource("1_klxe7")

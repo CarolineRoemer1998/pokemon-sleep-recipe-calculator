@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://clst3i4f8jltx"]
+
+[ext_resource type="Texture2D" uid="uid://baei5te7subx8" path="res://Assets/Recipes/Salads/calmmindfruitsalad.png" id="1_4nvhe"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_6rqwc"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_3rbb2"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="3_55uwr"]
+[ext_resource type="Resource" uid="uid://dfgpuxoladko1" path="res://Resources/Ingredients/honey.tres" id="4_e2bkv"]
+[ext_resource type="Resource" uid="uid://chmgldncbftu" path="res://Resources/Ingredients/greengrass_corn.tres" id="5_pbp7w"]
+
+[resource]
+script = ExtResource("2_3rbb2")
+recipe_name = "\"Calm Mind\" Fruit Salad"
+type = 1
+ingredients = Array[ExtResource("1_6rqwc")]([ExtResource("3_55uwr"), ExtResource("4_e2bkv"), ExtResource("5_pbp7w")])
+ingredient_amounts = Array[int]([21, 16, 12])
+base_strength = 7675
+image = ExtResource("1_4nvhe")

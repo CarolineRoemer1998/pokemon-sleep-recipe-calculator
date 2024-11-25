@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://bi82yxek42r1s"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_7rc74"]
+[ext_resource type="Texture2D" uid="uid://difjfyc8toj1j" path="res://Assets/Recipes/Curries&Stews/beanburgercurry.png" id="1_60wvr"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="2_cqy3i"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_rj43i"]
+
+[resource]
+script = ExtResource("2_rj43i")
+recipe_name = "Beanburger Curry"
+type = 0
+ingredients = Array[ExtResource("1_7rc74")]([ExtResource("2_cqy3i")])
+ingredient_amounts = Array[int]([7])
+base_strength = 764
+image = ExtResource("1_60wvr")

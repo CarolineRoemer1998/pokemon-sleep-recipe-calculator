@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://c8cun1ot22k4n"]
+
+[ext_resource type="Texture2D" uid="uid://b2qm8aasaq4ir" path="res://Assets/Recipes/Salads/superpowerextremesalad.png" id="1_83axa"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_n8qpg"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_61ij1"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="2_ccht5"]
+[ext_resource type="Resource" uid="uid://3tlbrwv2tb0w" path="res://Resources/Ingredients/soft_potato.tres" id="3_bjqck"]
+[ext_resource type="Resource" uid="uid://4267hdfm5q23" path="res://Resources/Ingredients/fancy_egg.tres" id="4_rggkb"]
+[ext_resource type="Resource" uid="uid://f2slgbm1kilm" path="res://Resources/Ingredients/warming_ginger.tres" id="5_v1c1o"]
+
+[resource]
+script = ExtResource("2_61ij1")
+recipe_name = "\"Superpower\" Extreme Salad"
+type = 1
+ingredients = Array[ExtResource("1_n8qpg")]([ExtResource("2_ccht5"), ExtResource("3_bjqck"), ExtResource("4_rggkb"), ExtResource("5_v1c1o")])
+ingredient_amounts = Array[int]([9, 3, 5, 6])
+base_strength = 2958
+image = ExtResource("1_83axa")

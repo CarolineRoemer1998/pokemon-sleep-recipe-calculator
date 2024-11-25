@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://dnjqleul0jp6q"]
+
+[ext_resource type="Texture2D" uid="uid://5pv10q64u0h1" path="res://Assets/Recipes/Desserts&Drinks/bigmalasada.png" id="1_64k37"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_lrtxb"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_plxv8"]
+[ext_resource type="Resource" uid="uid://b5aoba3dgl8mu" path="res://Resources/Ingredients/pure_oil.tres" id="3_bwcbr"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="4_i0v0u"]
+[ext_resource type="Resource" uid="uid://dfgpuxoladko1" path="res://Resources/Ingredients/honey.tres" id="5_siuuk"]
+
+[resource]
+script = ExtResource("2_plxv8")
+recipe_name = "Big Malasada"
+type = 2
+ingredients = Array[ExtResource("1_lrtxb")]([ExtResource("3_bwcbr"), ExtResource("4_i0v0u"), ExtResource("5_siuuk")])
+ingredient_amounts = Array[int]([10, 7, 6])
+base_strength = 2927
+image = ExtResource("1_64k37")

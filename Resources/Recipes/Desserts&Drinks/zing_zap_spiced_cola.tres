@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://bbq5vn52xittc"]
+
+[ext_resource type="Texture2D" uid="uid://cdatyk3qxpvie" path="res://Assets/Recipes/Desserts&Drinks/zingzapspicedcola.png" id="1_5vgx4"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_r7y58"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_sbrww"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="3_13u3k"]
+[ext_resource type="Resource" uid="uid://f2slgbm1kilm" path="res://Resources/Ingredients/warming_ginger.tres" id="4_mpdqs"]
+[ext_resource type="Resource" uid="uid://j43kpya2firl" path="res://Resources/Ingredients/large_leek.tres" id="5_ntwx6"]
+[ext_resource type="Resource" uid="uid://bitcih5bolqwo" path="res://Resources/Ingredients/rousing_coffee.tres" id="6_kuf1l"]
+
+[resource]
+script = ExtResource("2_sbrww")
+recipe_name = "\"Zing Zap\" Spiced Cola"
+type = 2
+ingredients = Array[ExtResource("1_r7y58")]([ExtResource("3_13u3k"), ExtResource("4_mpdqs"), ExtResource("5_ntwx6"), ExtResource("6_kuf1l")])
+ingredient_amounts = Array[int]([35, 20, 20, 12])
+base_strength = 17494
+image = ExtResource("1_5vgx4")

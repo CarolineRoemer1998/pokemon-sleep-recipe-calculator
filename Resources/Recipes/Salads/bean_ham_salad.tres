@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://ndoktxrkagqj"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_ijbus"]
+[ext_resource type="Texture2D" uid="uid://c87uca62vt407" path="res://Assets/Recipes/Salads/beanhamsalad.png" id="1_seljb"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_wd104"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="2_wkk61"]
+
+[resource]
+script = ExtResource("2_wd104")
+recipe_name = "Bean Ham Salad"
+type = 1
+ingredients = Array[ExtResource("1_ijbus")]([ExtResource("2_wkk61")])
+ingredient_amounts = Array[int]([8])
+base_strength = 873
+image = ExtResource("1_seljb")

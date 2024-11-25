@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://chmgldncbftu"]
+
+[ext_resource type="Texture2D" uid="uid://cs17myul344wp" path="res://Assets/Ingredients/greengrasscorn.png" id="1_l0a7s"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_t0e6o"]
+
+[resource]
+script = ExtResource("1_t0e6o")
+ingredient_name = "Greengrass Corn"
+base_strength = 140
+sell_value = 6
+image = ExtResource("1_l0a7s")

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://bwuc743grou7c"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_e1gfs"]
+[ext_resource type="Texture2D" uid="uid://bilruryhgq24w" path="res://Assets/Recipes/Curries&Stews/hiddenpowerperk-upstew.png" id="1_rdci7"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_q5w1k"]
+[ext_resource type="Resource" uid="uid://8bu1nsa1gvuk" path="res://Resources/Ingredients/greengrass_soybeans.tres" id="3_pqwry"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="4_kb6uf"]
+[ext_resource type="Resource" uid="uid://bgikt8kwrd50g" path="res://Resources/Ingredients/tasty_mushroom.tres" id="5_wtd2r"]
+[ext_resource type="Resource" uid="uid://bitcih5bolqwo" path="res://Resources/Ingredients/rousing_coffee.tres" id="6_dcc1v"]
+
+[resource]
+script = ExtResource("2_q5w1k")
+recipe_name = "\"Hidden Power\" Perk-Up Stew"
+type = 0
+ingredients = Array[ExtResource("1_e1gfs")]([ExtResource("3_pqwry"), ExtResource("4_kb6uf"), ExtResource("5_wtd2r"), ExtResource("6_dcc1v")])
+ingredient_amounts = Array[int]([28, 25, 23, 16])
+base_strength = 19061
+image = ExtResource("1_rdci7")

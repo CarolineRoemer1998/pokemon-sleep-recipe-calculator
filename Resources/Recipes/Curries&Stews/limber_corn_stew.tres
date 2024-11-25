@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://dwk3aw75etnr3"]
+
+[ext_resource type="Texture2D" uid="uid://2in224cel5ih" path="res://Assets/Recipes/Curries&Stews/limbercornstew.png" id="1_pr6vq"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_qdk1d"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_tmmh8"]
+[ext_resource type="Resource" uid="uid://chmgldncbftu" path="res://Resources/Ingredients/greengrass_corn.tres" id="3_ringg"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="4_aet8k"]
+[ext_resource type="Resource" uid="uid://3tlbrwv2tb0w" path="res://Resources/Ingredients/soft_potato.tres" id="5_ausbw"]
+
+[resource]
+script = ExtResource("2_tmmh8")
+recipe_name = "\"Limber\" Corn Stew"
+type = 0
+ingredients = Array[ExtResource("1_qdk1d")]([ExtResource("3_ringg"), ExtResource("4_aet8k"), ExtResource("5_ausbw")])
+ingredient_amounts = Array[int]([14, 8, 8])
+base_strength = 4670
+image = ExtResource("1_pr6vq")

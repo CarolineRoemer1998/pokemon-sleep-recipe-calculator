@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://l4nf88hv6fbx"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_bxa8k"]
+[ext_resource type="Texture2D" uid="uid://bvywkpe26uape" path="res://Assets/Recipes/Salads/dazzlingapplecheesesalad.png" id="1_kg2ul"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_ch0gh"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="2_gbdnu"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="3_0pbb8"]
+[ext_resource type="Resource" uid="uid://b5aoba3dgl8mu" path="res://Resources/Ingredients/pure_oil.tres" id="4_7h5ja"]
+
+[resource]
+script = ExtResource("2_ch0gh")
+recipe_name = "\"Dazzling\" Apple Cheese Salad"
+type = 1
+ingredients = Array[ExtResource("1_bxa8k")]([ExtResource("2_gbdnu"), ExtResource("3_0pbb8"), ExtResource("4_7h5ja")])
+ingredient_amounts = Array[int]([15, 5, 3])
+base_strength = 2578
+image = ExtResource("1_kg2ul")

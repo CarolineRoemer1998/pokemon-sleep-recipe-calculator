@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://bm0f2iqs8g8rn"]
+
+[ext_resource type="Texture2D" uid="uid://dtn6m3vpawqor" path="res://Assets/Ingredients/snoozytomato.png" id="1_tap55"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_x4bw1"]
+
+[resource]
+script = ExtResource("1_x4bw1")
+ingredient_name = "Snoozy Tomato"
+base_strength = 110
+sell_value = 4
+image = ExtResource("1_tap55")

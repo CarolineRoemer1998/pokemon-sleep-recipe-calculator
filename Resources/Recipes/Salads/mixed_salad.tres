@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=4 format=3 uid="uid://b1lm20qsyi7c5"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_hlbaw"]
+[ext_resource type="Texture2D" uid="uid://p2kra5ug61g8" path="res://Assets/Recipes/Salads/mixedsalad.png" id="1_xek5s"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_l328c"]
+
+[resource]
+script = ExtResource("2_l328c")
+recipe_name = ""
+type = 1
+ingredients = Array[ExtResource("1_hlbaw")]([])
+ingredient_amounts = Array[int]([])
+base_strength = 0
+image = ExtResource("1_xek5s")

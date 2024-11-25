@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://bcm4ehdo3uic5"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_85thb"]
+[ext_resource type="Texture2D" uid="uid://da246676jyidn" path="res://Assets/Recipes/Salads/moomoocapresesalad.png" id="1_o81x8"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_4vpay"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="2_htwdi"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="3_yhgbv"]
+[ext_resource type="Resource" uid="uid://b5aoba3dgl8mu" path="res://Resources/Ingredients/pure_oil.tres" id="4_shmi4"]
+
+[resource]
+script = ExtResource("2_4vpay")
+recipe_name = "Moomoo Caprese Salad"
+type = 1
+ingredients = Array[ExtResource("1_85thb")]([ExtResource("2_htwdi"), ExtResource("3_yhgbv"), ExtResource("4_shmi4")])
+ingredient_amounts = Array[int]([12, 6, 5])
+base_strength = 2856
+image = ExtResource("1_o81x8")

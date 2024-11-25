@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://cf0876vhjm3qu"]
+
+[ext_resource type="Texture2D" uid="uid://cxv12bdhswl1n" path="res://Assets/Recipes/Curries&Stews/bulkupbeancurry.png" id="1_867s1"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_o4r2p"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_1lv10"]
+[ext_resource type="Resource" uid="uid://8bu1nsa1gvuk" path="res://Resources/Ingredients/greengrass_soybeans.tres" id="3_cfv8k"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="4_pmtdv"]
+[ext_resource type="Resource" uid="uid://br7hcte4vqt2q" path="res://Resources/Ingredients/fiery_herb.tres" id="5_rgrmd"]
+[ext_resource type="Resource" uid="uid://4267hdfm5q23" path="res://Resources/Ingredients/fancy_egg.tres" id="6_0kkhd"]
+
+[resource]
+script = ExtResource("2_1lv10")
+recipe_name = "\"Bulk Up\" Bean Curry"
+type = 0
+ingredients = Array[ExtResource("1_o4r2p")]([ExtResource("3_cfv8k"), ExtResource("4_pmtdv"), ExtResource("5_rgrmd"), ExtResource("6_0kkhd")])
+ingredient_amounts = Array[int]([12, 6, 4, 4])
+base_strength = 3274
+image = ExtResource("1_867s1")

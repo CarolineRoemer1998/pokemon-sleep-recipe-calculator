@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://cpgv357khvas5"]
+
+[ext_resource type="Texture2D" uid="uid://o4tuihv1g2ht" path="res://Assets/Ingredients/fancyapple.png" id="1_0ixs0"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_7u5vw"]
+
+[resource]
+script = ExtResource("1_7u5vw")
+ingredient_name = "Fancy Apple"
+base_strength = 90
+sell_value = 4
+image = ExtResource("1_0ixs0")

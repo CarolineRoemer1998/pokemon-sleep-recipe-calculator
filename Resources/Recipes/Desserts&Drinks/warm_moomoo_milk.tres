@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://cr4m3vs2e168u"]
+
+[ext_resource type="Texture2D" uid="uid://dr360wn8go54b" path="res://Assets/Recipes/Desserts&Drinks/warmmoomoomilk.png" id="1_u5gbm"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_yttjn"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_ijpbe"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="3_843ll"]
+
+[resource]
+script = ExtResource("2_ijpbe")
+recipe_name = "Warm Moomoo Milk"
+type = 2
+ingredients = Array[ExtResource("1_yttjn")]([ExtResource("3_843ll")])
+ingredient_amounts = Array[int]([7])
+base_strength = 727
+image = ExtResource("1_u5gbm")

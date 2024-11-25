@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://1o7ja7e03sb4"]
+
+[ext_resource type="Texture2D" uid="uid://dvj63csbwtp1o" path="res://Assets/Recipes/Curries&Stews/mildhoneycurry.png" id="1_gya1h"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_icary"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_n2qw5"]
+[ext_resource type="Resource" uid="uid://dfgpuxoladko1" path="res://Resources/Ingredients/honey.tres" id="3_klulj"]
+
+[resource]
+script = ExtResource("2_n2qw5")
+recipe_name = "Mild Honey Curry"
+type = 0
+ingredients = Array[ExtResource("1_icary")]([ExtResource("3_klulj")])
+ingredient_amounts = Array[int]([7])
+base_strength = 749
+image = ExtResource("1_gya1h")

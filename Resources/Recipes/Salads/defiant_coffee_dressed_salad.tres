@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://donsbwabcqw0"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_0qmy0"]
+[ext_resource type="Texture2D" uid="uid://ft03f1go2pp8" path="res://Assets/Recipes/Salads/defiantcoffee-dressedsalad.png" id="1_lqvf3"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_p4ctc"]
+[ext_resource type="Resource" uid="uid://bitcih5bolqwo" path="res://Resources/Ingredients/rousing_coffee.tres" id="3_535ng"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="4_1b1tn"]
+[ext_resource type="Resource" uid="uid://b5aoba3dgl8mu" path="res://Resources/Ingredients/pure_oil.tres" id="5_d7yrb"]
+[ext_resource type="Resource" uid="uid://3tlbrwv2tb0w" path="res://Resources/Ingredients/soft_potato.tres" id="6_gv0ra"]
+
+[resource]
+script = ExtResource("2_p4ctc")
+recipe_name = "\"Defiant\" Coffee-Dressed Salad"
+type = 1
+ingredients = Array[ExtResource("1_0qmy0")]([ExtResource("3_535ng"), ExtResource("4_1b1tn"), ExtResource("5_d7yrb"), ExtResource("6_gv0ra")])
+ingredient_amounts = Array[int]([28, 28, 22, 22])
+base_strength = 20218
+image = ExtResource("1_lqvf3")

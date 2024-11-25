@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://ccesxgd0r4fof"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_rx586"]
+[ext_resource type="Texture2D" uid="uid://by4hl75yja8a2" path="res://Assets/Recipes/Desserts&Drinks/neroli'srestorativetea.png" id="1_s6r2m"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_mjllg"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="3_msbuv"]
+[ext_resource type="Resource" uid="uid://f2slgbm1kilm" path="res://Resources/Ingredients/warming_ginger.tres" id="4_yjx7q"]
+[ext_resource type="Resource" uid="uid://bgikt8kwrd50g" path="res://Resources/Ingredients/tasty_mushroom.tres" id="5_mlfw7"]
+
+[resource]
+script = ExtResource("2_mjllg")
+recipe_name = "Neroli's Restorative Tea"
+type = 2
+ingredients = Array[ExtResource("1_rx586")]([ExtResource("3_msbuv"), ExtResource("4_yjx7q"), ExtResource("5_mlfw7")])
+ingredient_amounts = Array[int]([15, 11, 9])
+base_strength = 5065
+image = ExtResource("1_s6r2m")

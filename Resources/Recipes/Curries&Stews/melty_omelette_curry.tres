@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://cfpi7ym8k2myo"]
+
+[ext_resource type="Texture2D" uid="uid://eu58a6xai84w" path="res://Assets/Recipes/Curries&Stews/meltyomelettecurry.png" id="1_eitbu"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_u5e81"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_6hkch"]
+[ext_resource type="Resource" uid="uid://4267hdfm5q23" path="res://Resources/Ingredients/fancy_egg.tres" id="3_q084q"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="4_vpsfj"]
+
+[resource]
+script = ExtResource("2_6hkch")
+recipe_name = "Melty Omelette Curry"
+type = 0
+ingredients = Array[ExtResource("1_u5e81")]([ExtResource("3_q084q"), ExtResource("4_vpsfj")])
+ingredient_amounts = Array[int]([10, 6])
+base_strength = 2009
+image = ExtResource("1_eitbu")

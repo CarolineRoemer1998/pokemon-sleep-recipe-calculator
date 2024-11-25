@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://3cqxk5x3qehf"]
+
+[ext_resource type="Texture2D" uid="uid://godw4yrwpdao" path="res://Assets/Recipes/Salads/contrarychocolatemeatsalad.png" id="1_bmio0"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_rkhss"]
+[ext_resource type="Resource" uid="uid://dhuwjf11lkcbi" path="res://Resources/Ingredients/soothing_cacao.tres" id="2_1pv6k"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_cj1s3"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="3_dxvq3"]
+
+[resource]
+script = ExtResource("2_cj1s3")
+recipe_name = "\"Contrary\" Chocolate Meat Salad"
+type = 1
+ingredients = Array[ExtResource("1_rkhss")]([ExtResource("2_1pv6k"), ExtResource("3_dxvq3")])
+ingredient_amounts = Array[int]([14, 9])
+base_strength = 3558
+image = ExtResource("1_bmio0")

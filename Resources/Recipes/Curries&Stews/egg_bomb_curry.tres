@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://c0pi4ipcegguo"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_ag76l"]
+[ext_resource type="Texture2D" uid="uid://cixipnltxax7g" path="res://Assets/Recipes/Curries&Stews/eggbombcurry.png" id="1_l3q83"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_1u3ac"]
+[ext_resource type="Resource" uid="uid://3tlbrwv2tb0w" path="res://Resources/Ingredients/soft_potato.tres" id="3_5pve0"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="4_acak6"]
+[ext_resource type="Resource" uid="uid://4267hdfm5q23" path="res://Resources/Ingredients/fancy_egg.tres" id="5_xey1u"]
+[ext_resource type="Resource" uid="uid://dfgpuxoladko1" path="res://Resources/Ingredients/honey.tres" id="6_6gmk0"]
+
+[resource]
+script = ExtResource("2_1u3ac")
+recipe_name = "\"Egg Bomb\" Curry"
+type = 0
+ingredients = Array[ExtResource("1_ag76l")]([ExtResource("3_5pve0"), ExtResource("4_acak6"), ExtResource("5_xey1u"), ExtResource("6_6gmk0")])
+ingredient_amounts = Array[int]([4, 11, 8, 12])
+base_strength = 4523
+image = ExtResource("1_l3q83")

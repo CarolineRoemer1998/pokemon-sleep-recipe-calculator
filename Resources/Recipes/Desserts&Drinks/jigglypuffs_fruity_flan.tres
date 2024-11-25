@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://bdmlef8htjqy8"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_30hn7"]
+[ext_resource type="Texture2D" uid="uid://bhbvuitjqahgj" path="res://Assets/Recipes/Desserts&Drinks/jigglypuff'sfruityflan.png" id="1_okg7w"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_64knc"]
+[ext_resource type="Resource" uid="uid://dfgpuxoladko1" path="res://Resources/Ingredients/honey.tres" id="3_y0itu"]
+[ext_resource type="Resource" uid="uid://4267hdfm5q23" path="res://Resources/Ingredients/fancy_egg.tres" id="4_j1qh4"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="5_2l2yc"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="6_kcm3y"]
+
+[resource]
+script = ExtResource("2_64knc")
+recipe_name = "Jigglypuff's Fruity Flan"
+type = 2
+ingredients = Array[ExtResource("1_30hn7")]([ExtResource("3_y0itu"), ExtResource("4_j1qh4"), ExtResource("5_2l2yc"), ExtResource("6_kcm3y")])
+ingredient_amounts = Array[int]([20, 15, 10, 10])
+base_strength = 7594
+image = ExtResource("1_okg7w")

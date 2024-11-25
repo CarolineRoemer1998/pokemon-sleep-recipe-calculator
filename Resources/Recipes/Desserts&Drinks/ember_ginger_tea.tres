@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://dusefn0tusivt"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_56alj"]
+[ext_resource type="Texture2D" uid="uid://ci5aaql0prpcd" path="res://Assets/Recipes/Desserts&Drinks/embergingertea.png" id="1_x321g"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_luwgo"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="3_67env"]
+[ext_resource type="Resource" uid="uid://f2slgbm1kilm" path="res://Resources/Ingredients/warming_ginger.tres" id="4_c8luc"]
+
+[resource]
+script = ExtResource("2_luwgo")
+recipe_name = "\"Ember\" Ginger Tea"
+type = 2
+ingredients = Array[ExtResource("1_56alj")]([ExtResource("3_67env"), ExtResource("4_c8luc")])
+ingredient_amounts = Array[int]([7, 9])
+base_strength = 1788
+image = ExtResource("1_x321g")

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://cs4sgk8h7ebu6"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_jxtx4"]
+[ext_resource type="Texture2D" uid="uid://huxl4e6iwlbd" path="res://Assets/Recipes/Curries&Stews/fancyapplecurry.png" id="1_ovsqm"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_qykcq"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="3_x2y7r"]
+
+[resource]
+script = ExtResource("2_qykcq")
+recipe_name = "Fancy Apple Curry"
+type = 0
+ingredients = Array[ExtResource("1_jxtx4")]([ExtResource("3_x2y7r")])
+ingredient_amounts = Array[int]([7])
+base_strength = 668
+image = ExtResource("1_ovsqm")

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://dgd2c2a65i4ik"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_i1hdo"]
+[ext_resource type="Texture2D" uid="uid://cfh8e4dq7axxd" path="res://Assets/Recipes/Salads/sporemushroomsalad.png" id="1_j7y0k"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_3qb8l"]
+[ext_resource type="Resource" uid="uid://b5aoba3dgl8mu" path="res://Resources/Ingredients/pure_oil.tres" id="3_ymlip"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="4_tbrpx"]
+[ext_resource type="Resource" uid="uid://bgikt8kwrd50g" path="res://Resources/Ingredients/tasty_mushroom.tres" id="5_bordc"]
+
+[resource]
+script = ExtResource("2_3qb8l")
+recipe_name = "\"Spore\" Mushroom Salad"
+type = 1
+ingredients = Array[ExtResource("1_i1hdo")]([ExtResource("3_ymlip"), ExtResource("4_tbrpx"), ExtResource("5_bordc")])
+ingredient_amounts = Array[int]([8, 8, 17])
+base_strength = 5859
+image = ExtResource("1_j7y0k")

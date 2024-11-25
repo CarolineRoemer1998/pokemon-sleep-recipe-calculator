@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://c2karsmuwprl2"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_kqs4b"]
+[ext_resource type="Texture2D" uid="uid://b7rrelljy5irv" path="res://Assets/Recipes/Curries&Stews/simplechowder.png" id="1_ns5lb"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_64wc4"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="3_pcwrm"]
+
+[resource]
+script = ExtResource("2_64wc4")
+recipe_name = "Simple Chowder"
+type = 0
+ingredients = Array[ExtResource("1_kqs4b")]([ExtResource("3_pcwrm")])
+ingredient_amounts = Array[int]([7])
+base_strength = 727
+image = ExtResource("1_ns5lb")

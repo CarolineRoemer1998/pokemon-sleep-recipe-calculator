@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://sck8n0ytva7w"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_7u3va"]
+[ext_resource type="Texture2D" uid="uid://drahsnibijaeq" path="res://Assets/Recipes/Curries&Stews/softpotatochowder.png" id="1_synld"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_m0heg"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="3_8u1rw"]
+[ext_resource type="Resource" uid="uid://3tlbrwv2tb0w" path="res://Resources/Ingredients/soft_potato.tres" id="4_2tmgb"]
+[ext_resource type="Resource" uid="uid://bgikt8kwrd50g" path="res://Resources/Ingredients/tasty_mushroom.tres" id="5_hx8ve"]
+
+[resource]
+script = ExtResource("2_m0heg")
+recipe_name = "Soft Potato Chowder"
+type = 0
+ingredients = Array[ExtResource("1_7u3va")]([ExtResource("3_8u1rw"), ExtResource("4_2tmgb"), ExtResource("5_hx8ve")])
+ingredient_amounts = Array[int]([10, 8, 4])
+base_strength = 3089
+image = ExtResource("1_synld")

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://mgcm8kj37vcl"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_1h6l7"]
+[ext_resource type="Texture2D" uid="uid://dwsa36xmwfwkx" path="res://Assets/Recipes/Curries&Stews/heartycheeseburgercurry.png" id="1_60htw"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_7owca"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="3_2o64c"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="4_bmggs"]
+
+[resource]
+script = ExtResource("2_7owca")
+recipe_name = "Hearty Cheeseburger Curry"
+type = 0
+ingredients = Array[ExtResource("1_1h6l7")]([ExtResource("3_2o64c"), ExtResource("4_bmggs")])
+ingredient_amounts = Array[int]([8, 8])
+base_strength = 1785
+image = ExtResource("1_60htw")

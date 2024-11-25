@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://bitcih5bolqwo"]
+
+[ext_resource type="Texture2D" uid="uid://bxl63fmtqh5dx" path="res://Assets/Ingredients/rousingcoffee.png" id="1_oeare"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_tnu64"]
+
+[resource]
+script = ExtResource("1_tnu64")
+ingredient_name = "Rousing Coffee"
+base_strength = 153
+sell_value = 6
+image = ExtResource("1_oeare")

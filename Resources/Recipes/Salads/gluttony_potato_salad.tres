@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://ikpbnmuf51ok"]
+
+[ext_resource type="Texture2D" uid="uid://fp1yw826negt" path="res://Assets/Recipes/Salads/gluttonypotatosalad.png" id="1_qvfsa"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_y2wiv"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="2_fswh6"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_mmyjb"]
+[ext_resource type="Resource" uid="uid://3tlbrwv2tb0w" path="res://Resources/Ingredients/soft_potato.tres" id="3_hkim2"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="4_q8nf5"]
+[ext_resource type="Resource" uid="uid://4267hdfm5q23" path="res://Resources/Ingredients/fancy_egg.tres" id="5_glka2"]
+
+[resource]
+script = ExtResource("2_mmyjb")
+recipe_name = "\"Gluttony\" Potato Salad"
+type = 1
+ingredients = Array[ExtResource("1_y2wiv")]([ExtResource("2_fswh6"), ExtResource("3_hkim2"), ExtResource("4_q8nf5"), ExtResource("5_glka2")])
+ingredient_amounts = Array[int]([7, 14, 6, 9])
+base_strength = 5040
+image = ExtResource("1_qvfsa")

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://ceq8156jkkulf"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_1emkk"]
+[ext_resource type="Texture2D" uid="uid://deb2pgvoveyj" path="res://Assets/Recipes/Curries&Stews/sporemushroomcurry.png" id="1_yaueo"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_0lss2"]
+[ext_resource type="Resource" uid="uid://3tlbrwv2tb0w" path="res://Resources/Ingredients/soft_potato.tres" id="3_ctm36"]
+[ext_resource type="Resource" uid="uid://bgikt8kwrd50g" path="res://Resources/Ingredients/tasty_mushroom.tres" id="4_2cnak"]
+
+[resource]
+script = ExtResource("2_0lss2")
+recipe_name = "\"Spore\" Mushroom Curry"
+type = 0
+ingredients = Array[ExtResource("1_1emkk")]([ExtResource("3_ctm36"), ExtResource("4_2cnak")])
+ingredient_amounts = Array[int]([9, 14])
+base_strength = 4041
+image = ExtResource("1_yaueo")

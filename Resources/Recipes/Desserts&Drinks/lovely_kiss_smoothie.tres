@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://v1tpxbalx21l"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_fc2wl"]
+[ext_resource type="Texture2D" uid="uid://bi0v036lygn7j" path="res://Assets/Recipes/Desserts&Drinks/lovelykisssmoothie.png" id="1_nhfph"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_jwe88"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="3_fp58k"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="4_sbmri"]
+[ext_resource type="Resource" uid="uid://dfgpuxoladko1" path="res://Resources/Ingredients/honey.tres" id="5_ai1yx"]
+[ext_resource type="Resource" uid="uid://dhuwjf11lkcbi" path="res://Resources/Ingredients/soothing_cacao.tres" id="6_brow6"]
+
+[resource]
+script = ExtResource("2_jwe88")
+recipe_name = "\"Lovely Kiss\" Smoothie"
+type = 2
+ingredients = Array[ExtResource("1_fc2wl")]([ExtResource("3_fp58k"), ExtResource("4_sbmri"), ExtResource("5_ai1yx"), ExtResource("6_brow6")])
+ingredient_amounts = Array[int]([11, 9, 7, 8])
+base_strength = 4734
+image = ExtResource("1_nhfph")

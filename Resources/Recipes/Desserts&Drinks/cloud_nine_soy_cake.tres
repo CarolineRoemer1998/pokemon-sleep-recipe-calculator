@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://jdgshyfk0ooc"]
+
+[ext_resource type="Texture2D" uid="uid://dmdscdwau0nsd" path="res://Assets/Recipes/Desserts&Drinks/cloudninesoycake.png" id="1_4acq2"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_vt1pd"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_45tjv"]
+[ext_resource type="Resource" uid="uid://4267hdfm5q23" path="res://Resources/Ingredients/fancy_egg.tres" id="3_upj61"]
+[ext_resource type="Resource" uid="uid://8bu1nsa1gvuk" path="res://Resources/Ingredients/greengrass_soybeans.tres" id="4_oslef"]
+
+[resource]
+script = ExtResource("2_45tjv")
+recipe_name = "\"Cloud Nine\" Soy Cake"
+type = 2
+ingredients = Array[ExtResource("1_vt1pd")]([ExtResource("3_upj61"), ExtResource("4_oslef")])
+ingredient_amounts = Array[int]([8, 7])
+base_strength = 1798
+image = ExtResource("1_4acq2")

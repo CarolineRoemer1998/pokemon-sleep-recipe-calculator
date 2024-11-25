@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://ci2kvnwei214c"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_4tenj"]
+[ext_resource type="Texture2D" uid="uid://fsbbbqxgd8on" path="res://Assets/Recipes/Salads/crosschopsalad.png" id="1_jkg8n"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_1iqdd"]
+[ext_resource type="Resource" uid="uid://4267hdfm5q23" path="res://Resources/Ingredients/fancy_egg.tres" id="3_nl1xl"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="4_ttsyq"]
+[ext_resource type="Resource" uid="uid://chmgldncbftu" path="res://Resources/Ingredients/greengrass_corn.tres" id="5_56cth"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="6_qqidt"]
+
+[resource]
+script = ExtResource("2_1iqdd")
+recipe_name = "\"Cross Chop\" Salad"
+type = 1
+ingredients = Array[ExtResource("1_4tenj")]([ExtResource("3_nl1xl"), ExtResource("4_ttsyq"), ExtResource("5_56cth"), ExtResource("6_qqidt")])
+ingredient_amounts = Array[int]([20, 15, 11, 10])
+base_strength = 8755
+image = ExtResource("1_jkg8n")

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://dfgpuxoladko1"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_gcu0i"]
+[ext_resource type="Texture2D" uid="uid://cwidktnhe6v27" path="res://Assets/Ingredients/honey.png" id="1_tso77"]
+
+[resource]
+script = ExtResource("1_gcu0i")
+ingredient_name = "Honey"
+base_strength = 101
+sell_value = 4
+image = ExtResource("1_tso77")

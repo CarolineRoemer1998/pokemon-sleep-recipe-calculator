@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://4267hdfm5q23"]
+
+[ext_resource type="Texture2D" uid="uid://ci26tin5xege7" path="res://Assets/Ingredients/fancyegg.png" id="1_06eua"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_ldan6"]
+
+[resource]
+script = ExtResource("1_ldan6")
+ingredient_name = "Fancy Egg"
+base_strength = 115
+sell_value = 5
+image = ExtResource("1_06eua")

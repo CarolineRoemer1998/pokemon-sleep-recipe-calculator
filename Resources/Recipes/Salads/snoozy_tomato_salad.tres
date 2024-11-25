@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://b21cpe6sxvklj"]
+
+[ext_resource type="Texture2D" uid="uid://d3fju3cfc6my8" path="res://Assets/Recipes/Salads/snoozytomatosalad.png" id="1_mdql2"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_xc88e"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_atjoh"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="2_ja7uh"]
+
+[resource]
+script = ExtResource("2_atjoh")
+recipe_name = "Snoozy Tomato Salad"
+type = 1
+ingredients = Array[ExtResource("1_xc88e")]([ExtResource("2_ja7uh")])
+ingredient_amounts = Array[int]([8])
+base_strength = 933
+image = ExtResource("1_mdql2")

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=4 format=3 uid="uid://col2dd4nr8kqr"]
+
+[ext_resource type="Texture2D" uid="uid://0l8kxv5v5jsq" path="res://Assets/Recipes/Curries&Stews/mixedcurry.png" id="1_dg41r"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_utsw0"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_84hml"]
+
+[resource]
+script = ExtResource("2_84hml")
+recipe_name = "Mixed Curry"
+type = 0
+ingredients = Array[ExtResource("1_utsw0")]([])
+ingredient_amounts = Array[int]([])
+base_strength = 0
+image = ExtResource("1_dg41r")

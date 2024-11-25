@@ -1,0 +1,42 @@
+[gd_scene load_steps=19 format=3 uid="uid://cmntqxqrqvl66"]
+
+[ext_resource type="Script" path="res://Scripts/inventory.gd" id="1_sn1lx"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="2_wu456"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="3_y08kq"]
+[ext_resource type="Resource" uid="uid://4267hdfm5q23" path="res://Resources/Ingredients/fancy_egg.tres" id="4_w66no"]
+[ext_resource type="Resource" uid="uid://br7hcte4vqt2q" path="res://Resources/Ingredients/fiery_herb.tres" id="5_auyyp"]
+[ext_resource type="Resource" uid="uid://chmgldncbftu" path="res://Resources/Ingredients/greengrass_corn.tres" id="6_g83n2"]
+[ext_resource type="Resource" uid="uid://8bu1nsa1gvuk" path="res://Resources/Ingredients/greengrass_soybeans.tres" id="7_345tv"]
+[ext_resource type="Resource" uid="uid://dfgpuxoladko1" path="res://Resources/Ingredients/honey.tres" id="8_bywtu"]
+[ext_resource type="Resource" uid="uid://j43kpya2firl" path="res://Resources/Ingredients/large_leek.tres" id="9_lli31"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="10_pxy7h"]
+[ext_resource type="Resource" uid="uid://b5aoba3dgl8mu" path="res://Resources/Ingredients/pure_oil.tres" id="11_5m3sc"]
+[ext_resource type="Resource" uid="uid://bitcih5bolqwo" path="res://Resources/Ingredients/rousing_coffee.tres" id="12_xh11g"]
+[ext_resource type="Resource" uid="uid://cpm7uosuhjprm" path="res://Resources/Ingredients/slowpoke_tail.tres" id="13_wbf14"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="14_vm21b"]
+[ext_resource type="Resource" uid="uid://3tlbrwv2tb0w" path="res://Resources/Ingredients/soft_potato.tres" id="15_8v65t"]
+[ext_resource type="Resource" uid="uid://dhuwjf11lkcbi" path="res://Resources/Ingredients/soothing_cacao.tres" id="16_adao5"]
+[ext_resource type="Resource" uid="uid://bgikt8kwrd50g" path="res://Resources/Ingredients/tasty_mushroom.tres" id="17_1u3gg"]
+[ext_resource type="Resource" uid="uid://f2slgbm1kilm" path="res://Resources/Ingredients/warming_ginger.tres" id="18_rtlce"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Inventory" type="Node2D" parent="."]
+script = ExtResource("1_sn1lx")
+bean_sausage = ExtResource("2_wu456")
+fancy_apple = ExtResource("3_y08kq")
+fancy_egg = ExtResource("4_w66no")
+fiery_herb = ExtResource("5_auyyp")
+greengrass_corn = ExtResource("6_g83n2")
+greengrass_soybeans = ExtResource("7_345tv")
+honey = ExtResource("8_bywtu")
+large_leek = ExtResource("9_lli31")
+moomoo_milk = ExtResource("10_pxy7h")
+pure_oil = ExtResource("11_5m3sc")
+rousing_coffee = ExtResource("12_xh11g")
+slowpoke_tail = ExtResource("13_wbf14")
+snoozy_tomato = ExtResource("14_vm21b")
+soft_potato = ExtResource("15_8v65t")
+soothing_cacao = ExtResource("16_adao5")
+tasty_mushroom = ExtResource("17_1u3gg")
+warming_ginger = ExtResource("18_rtlce")

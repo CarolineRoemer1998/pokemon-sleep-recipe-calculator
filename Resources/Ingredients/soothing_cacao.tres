@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://dhuwjf11lkcbi"]
+
+[ext_resource type="Texture2D" uid="uid://d3fya5d2ucpvj" path="res://Assets/Ingredients/soothingcacao.png" id="1_q31c1"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_yvxbi"]
+
+[resource]
+script = ExtResource("1_yvxbi")
+ingredient_name = "Soothing Cacao"
+base_strength = 151
+sell_value = 6
+image = ExtResource("1_q31c1")

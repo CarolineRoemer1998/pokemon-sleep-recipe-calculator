@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://xb52fdwbk3hd"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_8h72f"]
+[ext_resource type="Texture2D" uid="uid://cgevaoikckxny" path="res://Assets/Recipes/Curries&Stews/ninjacurry.png" id="1_dg3y4"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_8s3e5"]
+[ext_resource type="Resource" uid="uid://8bu1nsa1gvuk" path="res://Resources/Ingredients/greengrass_soybeans.tres" id="3_j445v"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="4_chp2u"]
+[ext_resource type="Resource" uid="uid://j43kpya2firl" path="res://Resources/Ingredients/large_leek.tres" id="5_hs3h5"]
+[ext_resource type="Resource" uid="uid://bgikt8kwrd50g" path="res://Resources/Ingredients/tasty_mushroom.tres" id="6_uql7w"]
+
+[resource]
+script = ExtResource("2_8s3e5")
+recipe_name = "Ninja Curry"
+type = 0
+ingredients = Array[ExtResource("1_8h72f")]([ExtResource("3_j445v"), ExtResource("4_chp2u"), ExtResource("5_hs3h5"), ExtResource("6_uql7w")])
+ingredient_amounts = Array[int]([24, 9, 12, 5])
+base_strength = 9445
+image = ExtResource("1_dg3y4")

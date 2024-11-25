@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://cpm7uosuhjprm"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_airsw"]
+[ext_resource type="Texture2D" uid="uid://8ba5kl3vgull" path="res://Assets/Ingredients/slowpoketail.png" id="1_vjiga"]
+
+[resource]
+script = ExtResource("1_airsw")
+ingredient_name = "Slowpoke Tail"
+base_strength = 342
+sell_value = 14
+image = ExtResource("1_vjiga")

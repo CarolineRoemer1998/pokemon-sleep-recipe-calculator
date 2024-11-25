@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://c8foph7n7dfdm"]
+
+[ext_resource type="Texture2D" uid="uid://dmwd3jrjxl8hw" path="res://Assets/Recipes/Curries&Stews/infernocornkeemacurry.png" id="1_fklbt"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_p5inl"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_fsno7"]
+[ext_resource type="Resource" uid="uid://br7hcte4vqt2q" path="res://Resources/Ingredients/fiery_herb.tres" id="3_n0wbe"]
+[ext_resource type="Resource" uid="uid://c63gpg8kqbuq" path="res://Resources/Ingredients/bean_sausage.tres" id="4_tuste"]
+[ext_resource type="Resource" uid="uid://chmgldncbftu" path="res://Resources/Ingredients/greengrass_corn.tres" id="5_6a8x3"]
+[ext_resource type="Resource" uid="uid://f2slgbm1kilm" path="res://Resources/Ingredients/warming_ginger.tres" id="6_o2jst"]
+
+[resource]
+script = ExtResource("2_fsno7")
+recipe_name = "\"Inferno\" Corn Keema Curry"
+type = 0
+ingredients = Array[ExtResource("1_p5inl")]([ExtResource("3_n0wbe"), ExtResource("4_tuste"), ExtResource("5_6a8x3"), ExtResource("6_o2jst")])
+ingredient_amounts = Array[int]([27, 24, 14, 12])
+base_strength = 13690
+image = ExtResource("1_fklbt")

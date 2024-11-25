@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=8 format=3 uid="uid://dcyctm062awyd"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_c25hm"]
+[ext_resource type="Texture2D" uid="uid://dd2pdhf5rko62" path="res://Assets/Recipes/Desserts&Drinks/steadfastgingercookies.png" id="1_w1wkx"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_ly6pt"]
+[ext_resource type="Resource" uid="uid://dfgpuxoladko1" path="res://Resources/Ingredients/honey.tres" id="3_b7qdv"]
+[ext_resource type="Resource" uid="uid://f2slgbm1kilm" path="res://Resources/Ingredients/warming_ginger.tres" id="4_v88qj"]
+[ext_resource type="Resource" uid="uid://dhuwjf11lkcbi" path="res://Resources/Ingredients/soothing_cacao.tres" id="5_2fdrt"]
+[ext_resource type="Resource" uid="uid://4267hdfm5q23" path="res://Resources/Ingredients/fancy_egg.tres" id="6_ip4ka"]
+
+[resource]
+script = ExtResource("2_ly6pt")
+recipe_name = "\"Steadfast\" Ginger Cookies"
+type = 2
+ingredients = Array[ExtResource("1_c25hm")]([ExtResource("3_b7qdv"), ExtResource("4_v88qj"), ExtResource("5_2fdrt"), ExtResource("6_ip4ka")])
+ingredient_amounts = Array[int]([14, 12, 5, 4])
+base_strength = 4921
+image = ExtResource("1_w1wkx")

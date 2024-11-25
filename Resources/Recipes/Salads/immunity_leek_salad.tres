@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://pk44l8a66dm1"]
+
+[ext_resource type="Texture2D" uid="uid://b3xge4tr5eih3" path="res://Assets/Recipes/Salads/immunityleeksalad.png" id="1_7dtmc"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_alw44"]
+[ext_resource type="Resource" uid="uid://j43kpya2firl" path="res://Resources/Ingredients/large_leek.tres" id="2_npwja"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_o7sh5"]
+[ext_resource type="Resource" uid="uid://f2slgbm1kilm" path="res://Resources/Ingredients/warming_ginger.tres" id="3_vijig"]
+
+[resource]
+script = ExtResource("2_o7sh5")
+recipe_name = "\"Immunity\" Leek Salad"
+type = 1
+ingredients = Array[ExtResource("1_alw44")]([ExtResource("2_npwja"), ExtResource("3_vijig")])
+ingredient_amounts = Array[int]([10, 5])
+base_strength = 2658
+image = ExtResource("1_7dtmc")

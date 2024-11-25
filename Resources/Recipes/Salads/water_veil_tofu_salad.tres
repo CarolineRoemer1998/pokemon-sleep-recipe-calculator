@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://cg1qo4d0ctoae"]
+
+[ext_resource type="Texture2D" uid="uid://cb14x5pof5okx" path="res://Assets/Recipes/Salads/waterveiltofusalad.png" id="1_d7tjh"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_etrio"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_0inww"]
+[ext_resource type="Resource" uid="uid://8bu1nsa1gvuk" path="res://Resources/Ingredients/greengrass_soybeans.tres" id="2_mx0ik"]
+[ext_resource type="Resource" uid="uid://bm0f2iqs8g8rn" path="res://Resources/Ingredients/snoozy_tomato.tres" id="3_p0vws"]
+
+[resource]
+script = ExtResource("2_0inww")
+recipe_name = "\"Water Veil\" Tofu Salad"
+type = 1
+ingredients = Array[ExtResource("1_etrio")]([ExtResource("2_mx0ik"), ExtResource("3_p0vws")])
+ingredient_amounts = Array[int]([15, 9])
+base_strength = 3113
+image = ExtResource("1_d7tjh")

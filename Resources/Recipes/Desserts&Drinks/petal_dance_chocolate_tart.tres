@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://cnsgb6d7gt5cj"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_1b2gm"]
+[ext_resource type="Texture2D" uid="uid://c68r5hx5pjnt5" path="res://Assets/Recipes/Desserts&Drinks/petaldancechocolatetart.png" id="1_eb1n6"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_55631"]
+[ext_resource type="Resource" uid="uid://dhuwjf11lkcbi" path="res://Resources/Ingredients/soothing_cacao.tres" id="3_jtn5b"]
+[ext_resource type="Resource" uid="uid://cpgv357khvas5" path="res://Resources/Ingredients/fancy_apple.tres" id="4_e26u7"]
+
+[resource]
+script = ExtResource("2_55631")
+recipe_name = "\"Petal Dance\" Chocolate Tart"
+type = 2
+ingredients = Array[ExtResource("1_1b2gm")]([ExtResource("3_jtn5b"), ExtResource("4_e26u7")])
+ingredient_amounts = Array[int]([11, 11])
+base_strength = 3314
+image = ExtResource("1_eb1n6")

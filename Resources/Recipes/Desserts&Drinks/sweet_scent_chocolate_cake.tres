@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://blk15p45o7xhl"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_a16a3"]
+[ext_resource type="Texture2D" uid="uid://bx1ot5tgknwme" path="res://Assets/Recipes/Desserts&Drinks/sweetscentchocolatecake.png" id="1_sxixu"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_uk7si"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="3_0t51y"]
+[ext_resource type="Resource" uid="uid://dfgpuxoladko1" path="res://Resources/Ingredients/honey.tres" id="4_74hge"]
+[ext_resource type="Resource" uid="uid://dhuwjf11lkcbi" path="res://Resources/Ingredients/soothing_cacao.tres" id="5_5i1s7"]
+
+[resource]
+script = ExtResource("2_uk7si")
+recipe_name = "\"Sweet Scent\" Chocolate Cake"
+type = 2
+ingredients = Array[ExtResource("1_a16a3")]([ExtResource("3_0t51y"), ExtResource("4_74hge"), ExtResource("5_5i1s7")])
+ingredient_amounts = Array[int]([7, 9, 8])
+base_strength = 3280
+image = ExtResource("1_sxixu")

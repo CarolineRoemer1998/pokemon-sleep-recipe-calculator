@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://br7hcte4vqt2q"]
+
+[ext_resource type="Texture2D" uid="uid://myc4ukqquvkv" path="res://Assets/Ingredients/fieryherb.png" id="1_gqsr4"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_r1vo1"]
+
+[resource]
+script = ExtResource("1_r1vo1")
+ingredient_name = "Fiery Herb"
+base_strength = 130
+sell_value = 5
+image = ExtResource("1_gqsr4")

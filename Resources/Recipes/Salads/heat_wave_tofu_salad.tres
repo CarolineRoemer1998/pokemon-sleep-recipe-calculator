@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://dnijlpsng4ijt"]
+
+[ext_resource type="Texture2D" uid="uid://hgul4hijmu1f" path="res://Assets/Recipes/Salads/heatwavetofusalad.png" id="1_nqp5e"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_rits1"]
+[ext_resource type="Resource" uid="uid://8bu1nsa1gvuk" path="res://Resources/Ingredients/greengrass_soybeans.tres" id="2_61k18"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_fxg1p"]
+[ext_resource type="Resource" uid="uid://br7hcte4vqt2q" path="res://Resources/Ingredients/fiery_herb.tres" id="3_iy78h"]
+
+[resource]
+script = ExtResource("2_fxg1p")
+recipe_name = "\"Heat Wave\" Tofu Salad"
+type = 1
+ingredients = Array[ExtResource("1_rits1")]([ExtResource("2_61k18"), ExtResource("3_iy78h")])
+ingredient_amounts = Array[int]([10, 6])
+base_strength = 1976
+image = ExtResource("1_nqp5e")

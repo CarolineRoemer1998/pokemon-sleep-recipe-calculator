@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://can3tumpe72gy"]
+
+[ext_resource type="Texture2D" uid="uid://bggulp84a3hgf" path="res://Assets/Ingredients/moomoomilk.png" id="1_bmk10"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_yfi72"]
+
+[resource]
+script = ExtResource("1_yfi72")
+ingredient_name = "Moomoo Milk"
+base_strength = 98
+sell_value = 4
+image = ExtResource("1_bmk10")

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://prfq3r28op40"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_d44vh"]
+[ext_resource type="Texture2D" uid="uid://x1xuvmp65vca" path="res://Assets/Recipes/Desserts&Drinks/hugepowersoydonuts.png" id="1_wdm5t"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_7onsv"]
+[ext_resource type="Resource" uid="uid://b5aoba3dgl8mu" path="res://Resources/Ingredients/pure_oil.tres" id="3_ngwby"]
+[ext_resource type="Resource" uid="uid://8bu1nsa1gvuk" path="res://Resources/Ingredients/greengrass_soybeans.tres" id="4_doj8g"]
+[ext_resource type="Resource" uid="uid://dhuwjf11lkcbi" path="res://Resources/Ingredients/soothing_cacao.tres" id="5_gkemq"]
+
+[resource]
+script = ExtResource("2_7onsv")
+recipe_name = "\"Huge Power\" Soy Donuts"
+type = 2
+ingredients = Array[ExtResource("1_d44vh")]([ExtResource("3_ngwby"), ExtResource("4_doj8g"), ExtResource("5_gkemq")])
+ingredient_amounts = Array[int]([12, 16, 7])
+base_strength = 5547
+image = ExtResource("1_wdm5t")

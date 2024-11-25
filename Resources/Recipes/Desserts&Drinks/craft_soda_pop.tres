@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=5 format=3 uid="uid://u0h1rtsmgvmt"]
+
+[ext_resource type="Texture2D" uid="uid://b0ymyjrbjs34e" path="res://Assets/Recipes/Desserts&Drinks/craftsodapop.png" id="1_bp3uh"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_yjv62"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_xehru"]
+[ext_resource type="Resource" uid="uid://dfgpuxoladko1" path="res://Resources/Ingredients/honey.tres" id="3_hsjpc"]
+
+[resource]
+script = ExtResource("2_xehru")
+recipe_name = "Craft Soda Pop"
+type = 2
+ingredients = Array[ExtResource("1_yjv62")]([ExtResource("3_hsjpc")])
+ingredient_amounts = Array[int]([9])
+base_strength = 964
+image = ExtResource("1_bp3uh")

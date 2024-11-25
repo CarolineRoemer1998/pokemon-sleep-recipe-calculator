@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://c63gpg8kqbuq"]
+
+[ext_resource type="Texture2D" uid="uid://cmb58k1tik21k" path="res://Assets/Ingredients/beansausage.png" id="1_pa7ou"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="2_v66am"]
+
+[resource]
+script = ExtResource("2_v66am")
+amount = 0
+ingredient_name = "Bean Sausage"
+base_strength = 103
+sell_value = 4
+image = ExtResource("1_pa7ou")

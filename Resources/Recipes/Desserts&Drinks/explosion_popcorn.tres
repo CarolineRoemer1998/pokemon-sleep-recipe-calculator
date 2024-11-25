@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://cudsey2quuthn"]
+
+[ext_resource type="Texture2D" uid="uid://524antrwn5yh" path="res://Assets/Recipes/Desserts&Drinks/explosionpopcorn.png" id="1_7188i"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_a4wd0"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_mv2ma"]
+[ext_resource type="Resource" uid="uid://chmgldncbftu" path="res://Resources/Ingredients/greengrass_corn.tres" id="3_onvjd"]
+[ext_resource type="Resource" uid="uid://b5aoba3dgl8mu" path="res://Resources/Ingredients/pure_oil.tres" id="4_mw1ng"]
+[ext_resource type="Resource" uid="uid://can3tumpe72gy" path="res://Resources/Ingredients/moomoo_milk.tres" id="5_ucopc"]
+
+[resource]
+script = ExtResource("2_mv2ma")
+recipe_name = "\"Explosion\" Popcorn"
+type = 2
+ingredients = Array[ExtResource("1_a4wd0")]([ExtResource("3_onvjd"), ExtResource("4_mw1ng"), ExtResource("5_ucopc")])
+ingredient_amounts = Array[int]([15, 14, 7])
+base_strength = 6048
+image = ExtResource("1_7188i")

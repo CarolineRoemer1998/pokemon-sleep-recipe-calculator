@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=6 format=3 uid="uid://cqvi4f4nyn18q"]
+
+[ext_resource type="Texture2D" uid="uid://bcqohdk22pfjp" path="res://Assets/Recipes/Curries&Stews/grilledtailcurry.png" id="1_dft1h"]
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_wk63y"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_lkpqv"]
+[ext_resource type="Resource" uid="uid://br7hcte4vqt2q" path="res://Resources/Ingredients/fiery_herb.tres" id="3_26xjv"]
+[ext_resource type="Resource" uid="uid://cpm7uosuhjprm" path="res://Resources/Ingredients/slowpoke_tail.tres" id="4_gq8l8"]
+
+[resource]
+script = ExtResource("2_lkpqv")
+recipe_name = "Grilled Tail Curry"
+type = 0
+ingredients = Array[ExtResource("1_wk63y")]([ExtResource("3_26xjv"), ExtResource("4_gq8l8")])
+ingredient_amounts = Array[int]([25, 8])
+base_strength = 7483
+image = ExtResource("1_dft1h")

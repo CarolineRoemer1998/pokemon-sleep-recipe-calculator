@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=7 format=3 uid="uid://bv5w7yrcfmaxm"]
+
+[ext_resource type="Script" path="res://Scripts/Ingredient.gd" id="1_1f22m"]
+[ext_resource type="Texture2D" uid="uid://48ecliwc625v" path="res://Assets/Recipes/Curries&Stews/spicyleekcurry.png" id="1_q8f5m"]
+[ext_resource type="Script" path="res://Scripts/Recipe.gd" id="2_qxmun"]
+[ext_resource type="Resource" uid="uid://j43kpya2firl" path="res://Resources/Ingredients/large_leek.tres" id="3_rjpvr"]
+[ext_resource type="Resource" uid="uid://br7hcte4vqt2q" path="res://Resources/Ingredients/fiery_herb.tres" id="4_fg3li"]
+[ext_resource type="Resource" uid="uid://f2slgbm1kilm" path="res://Resources/Ingredients/warming_ginger.tres" id="5_8nhym"]
+
+[resource]
+script = ExtResource("2_qxmun")
+recipe_name = "Spicy Leek Curry"
+type = 0
+ingredients = Array[ExtResource("1_1f22m")]([ExtResource("3_rjpvr"), ExtResource("4_fg3li"), ExtResource("5_8nhym")])
+ingredient_amounts = Array[int]([14, 8, 10])
+base_strength = 5900
+image = ExtResource("1_q8f5m")
